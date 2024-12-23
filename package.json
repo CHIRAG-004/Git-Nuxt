@@ -1,0 +1,30 @@
+{
+  "name": "github-package-test-1",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^3.14.1592",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "version": "1.0.0",
+  "description": "Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.",
+  "main": "nuxt.config.ts",
+  "devDependencies": {},
+  "keywords": [],
+  "author": "Chirag",
+  "license": "ISC",
+  "files": [
+    "nuxt.config.ts",
+    "components",
+    "composables",
+    "pages"
+  ]
+}
